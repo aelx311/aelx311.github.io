@@ -1,6 +1,4 @@
 $(document).ready(function() {
-    $("#home_link").addClass("linkHover");
-	
     /**
     * Parallax scrolling
     * source: http://www.mohi.me
@@ -41,35 +39,35 @@ $(document).ready(function() {
          // Go to destination
          $("html,body").animate({scrollTop:dest}, 1500,'swing');
      });
-    
-    /**
-    * Highlight the link that is currently viewing
-    */
-    // Get section positions
-    var homePosition = $("#home").offset().top;
-    var projectsPosition = $("#projects").offset().top;
-    var aboutPosition = $("#about").offset().top;
-    var contactPosition = $("#contact").offset().top;
-    
-    $(window).scroll(function() {
-        var windowPosition = $(window).scrollTop() + 60;
-//        $("article > p").text(windowPosition);
-        if((windowPosition > 0) && (windowPosition < (homePosition + 900))) {
-            $("#home_link").addClass("linkHover");
-        }
-        else if((windowPosition > projectsPosition) && (windowPosition < (projectsPosition + 900))) {
-            $("#projects_link").addClass("linkHover");
-        }
-        else if((windowPosition > aboutPosition) && (windowPosition < (aboutPosition + 900))) {
-            $("#about_link").addClass("linkHover");
-        }
-        else if((windowPosition > contactPosition) && (windowPosition < (contactPosition + 900))) {
-            $("#contact_link").addClass("linkHover");
-        }
-        else {
-            $("#navigation_bar ul").removeClass("linkHover");
-        }
-    });
+//    
+//    /**
+//    * Highlight the link that is currently viewing
+//    */
+//    // Get section positions
+//    var homePosition = $("#home").offset().top;
+//    var projectsPosition = $("#projects").offset().top;
+//    var aboutPosition = $("#about").offset().top;
+//    var contactPosition = $("#contact").offset().top;
+//    
+//    $(window).scroll(function() {
+//        var windowPosition = $(window).scrollTop();
+////        $("article > p").text(windowPosition);
+//        if((windowPosition > 0) && (windowPosition < (homePosition + 900))) {
+//            $("#home_link").addClass("linkHover");
+//        }
+//        else if((windowPosition > projectsPosition) && (windowPosition < (projectsPosition + 900))) {
+//            $("#projects_link").addClass("linkHover");
+//        }
+//        else if((windowPosition > aboutPosition) && (windowPosition < (aboutPosition + 900))) {
+//            $("#about_link").addClass("linkHover");
+//        }
+//        else if((windowPosition > contactPosition) && (windowPosition < (contactPosition + 900))) {
+//            $("#contact_link").addClass("linkHover");
+//        }
+//        else {
+//            $("#navigation_bar ul").removeClass("linkHover");
+//        }
+//    });
 });
 
 /* 
