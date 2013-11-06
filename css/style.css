@@ -1,6 +1,7 @@
 body {
 	margin:0;
 	padding:0;
+    width: 100%;
 }
 
 #navigation_bar {
@@ -48,7 +49,7 @@ body {
     width: 100%;
     max-width: 1920px; 
     position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
 }
 
 #projects { 
@@ -58,7 +59,7 @@ body {
     width: 100%; 
     max-width: 1920px; 
     position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
 }
 
 #about { 
@@ -68,7 +69,7 @@ body {
     width: 100%; 
     max-width: 1920px; 
     position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
 }
 
 #contact { 
@@ -78,7 +79,7 @@ body {
     width: 100%; 
     max-width: 1920px; 
     position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
 }
 
 /* Introduction */
@@ -139,9 +140,10 @@ body {
 
 /* About */
 #about h2 {
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 60px;
     margin-bottom: 30px;
 }
@@ -151,9 +153,8 @@ body {
     padding: 10px;
     color: white;
     width: 800px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
-    margin: 0px auto;
 }
 
 #about article {
@@ -165,24 +166,47 @@ body {
     width: 100%;
 }
 
+/* Contact */
+#contact {
+    text-align: right;
+}
+
+#contact li {
+    padding: 15px;
+    list-style: none;
+}
+
+#contact ul {
+    display: inline-block;
+}
+
+#contact img {
+    opacity: 0.75;
+}
+
+#contact img:hover {
+    opacity: 0.95;
+}
+
 #contact h2 {
-    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
-    text-align: left;
+    text-align: right;
     font-size: 60px;
     margin-bottom: 30px;
 }
 
 #contact p {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     color: white;
-    width: 800px;
-    text-align: left;
+    width: 450px;
+    text-align: right;
     font-size: 20px;
+    margin-left: auto;
 }
 
-/* Contact */
 #contact article {
 /*    background: url("../images/parallax.png") no-repeat scroll center top transparent;*/
     height: 458px;
