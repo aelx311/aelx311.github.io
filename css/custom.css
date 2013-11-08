@@ -48,6 +48,10 @@ body {
   background-size: cover;
 }
 
+#home .row {
+  margin-bottom: 15px;
+}
+
 #projects {
   background: url(../img/project.jpg) 50% 0 no-repeat fixed;
   background-size: cover;
