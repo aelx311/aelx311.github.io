@@ -30,7 +30,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0px;
-  min-height: 800px;
+  min-height: 600px;
 }
 
 .jumbotron .container {
@@ -44,8 +44,13 @@ body {
 }
 
 #home {
-  background: url(../img/home.jpg) 50% 0 no-repeat fixed;
+  background-color:#f7f7f7;
   background-size: cover;
+}
+
+#home .container {
+  background-color: transparent;
+  color: #524f4f;
 }
 
 #home .row {
