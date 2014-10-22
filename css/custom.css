@@ -44,13 +44,13 @@ body {
 }
 
 #home {
-  background-color:#f7f7f7;
+  background: url(../img/home.jpg) 50% 0 no-repeat fixed;
   background-size: cover;
 }
 
 #home .container {
   background-color: transparent;
-  color: #524f4f;
+  color: #eeeeee;
 }
 
 #home .row {
