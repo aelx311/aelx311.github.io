@@ -101,7 +101,12 @@
         })
         .state('resume', {
           url: "/resume",
-          templateUrl: "./templates/resume.html"
+          templateUrl: "./templates/resume.html",
+          controller: function($scope) {
+            $scope.downloadResume = function() {
+              window.location.href = './assets/resume_bw_border.pdf';
+            };
+          }
         });
       });
     </script>
