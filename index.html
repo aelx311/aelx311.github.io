@@ -18,7 +18,7 @@
 
     <md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2"
                 md-component-id="left"
-                md-is-locked-open="$mdMedia('gt-sm')">
+                md-is-locked-open="$mdMedia('gt-md')">
 
       <md-toolbar class="md-whiteframe-z1">
         <h1>Alex Dehe Ng</h1>
@@ -36,7 +36,7 @@
 
     <div flex layout="column" tabIndex="-1" role="main" class="md-whiteframe-z2">
       <md-toolbar layout="row" class="md-whiteframe-z1">
-        <md-button class="menu" hide-gt-sm ng-click="contentCtrl.toggleList()" aria-label="Show Content List">
+        <md-button class="menu" hide-gt-md ng-click="contentCtrl.toggleList()" aria-label="Show Content List">
           <md-icon md-svg-icon="menu" ></md-icon>
         </md-button>
         <h1>{{contentCtrl.selected.name | uppercase}}</h1>
