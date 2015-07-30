@@ -161,3 +161,9 @@ li {
   max-height: 110px;
   max-width: 110px;
 }
+
+
+.education img {
+  width: 100%;
+  height: auto;
+}
