@@ -147,6 +147,11 @@ span.name {
   font-size: 20px;;
 }
 
+.projects .title {
+  font-weight: 500;
+  font-size: 20px;;
+}
+
 li {
   padding: 5px;
 }

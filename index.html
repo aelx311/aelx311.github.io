@@ -91,6 +91,14 @@
             $scope.socialGearAppUrl = 'https://itunes.apple.com/us/app/socialgear/id824071826?mt=8';
           }
         })
+        .state('projects', {
+          url: "/projects",
+          templateUrl: "./templates/projects.html",
+          controller: function($scope) {
+            $scope.austinRecyclingUrl = "https://play.google.com/store/apps/details?id=com.aelx311.app.austinrecycling";
+            $scope.austinRecyclingGitHubUrl = "http://aelx311.github.io/austin_recycling";
+          }
+        })
         .state('skills', {
           url: "/skills",
           templateUrl: "./templates/skills.html"

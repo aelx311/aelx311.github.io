@@ -20,6 +20,7 @@
     self.titles = [
       {name: 'profile', icon: 'sidenav-icon mdi mdi-home'},
       {name: 'experience', icon: 'sidenav-icon  mdi mdi-clock-fast'}, 
+      {name: 'projects', icon: 'sidenav-icon  mdi mdi-folder-multiple'}, 
       {name: 'skills', icon: 'sidenav-icon  mdi mdi-check-all'}, 
       {name: 'education', icon: 'sidenav-icon  mdi mdi-school'}, 
       {name: 'resume', icon: 'sidenav-icon  mdi mdi-paperclip'}
